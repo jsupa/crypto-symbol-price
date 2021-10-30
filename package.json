@@ -1,10 +1,10 @@
 {
-    "name": "nodejs-project-example",
+    "name": "crypto-symbol-price",
     "version": "1.0.0",
-    "description": "example for my node.js projects",
+    "description": "track crypto history of specific symbols",
     "main": "index.js",
     "scripts": {
-        "start": "node_modules/.bin/nodemon index.js"
+        "start": "nodemon index.js"
     },
     "author": "Jakub Supa",
     "license": "ISC",
@@ -20,5 +20,16 @@
         "nodemon": "^2.0.13",
         "string_decoder": "^1.3.0",
         "url": "^0.11.0"
-    }
+    },
+    "directories": {
+        "lib": "lib"
+    },
+    "repository": {
+        "type": "git",
+        "url": "git+https://github.com/jsupa/crypto-symbol-price.git"
+    },
+    "bugs": {
+        "url": "https://github.com/jsupa/crypto-symbol-price/issues"
+    },
+    "homepage": "https://github.com/jsupa/crypto-symbol-price#readme"
 }
